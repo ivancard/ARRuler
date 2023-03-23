@@ -108,7 +108,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             z: position.z
         )
 
-        textNode.scale = SCNVector3(x: 0.01, y: 0.01, z: 0.01)
+        textNode.scale = SCNVector3(x: 0.003, y: 0.003, z: 0.003)
 
         sceneView.scene.rootNode.addChildNode(textNode )
     }
